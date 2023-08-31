@@ -2,6 +2,7 @@
   "name": "click-collect",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "@testing-library/jest-dom": "^5.11.4",
