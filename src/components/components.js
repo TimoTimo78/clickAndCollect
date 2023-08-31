@@ -16,7 +16,8 @@ export function Table({ children, items = [], heading, subheading }) {
               <thead>
                 <tr>
                   <th style={{ width: "10%" }}></th>
-                  <th style={{ width: "50%" }}>Product</th>
+                  <th style={{ width: "40%" }}>Product</th>
+                  <th style={{ width: "10%" }}>Size</th>
                   <th style={{ width: "10%" }}>Unit Price</th>
                   <th style={{ width: "10%" }}>Price</th>
                   <th style={{ width: "20%" }}>Quantity</th>

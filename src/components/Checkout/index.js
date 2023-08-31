@@ -74,7 +74,7 @@ function Checkout({ history }) {
             <form className="needs-validation" onSubmit={handleOnSubmit}>
               <div className="row">
                 <div className="col-md-6 mb-3">
-                  <label for="firstName">First name</label>
+                  <label htmlFor="firstName">First name</label>
                   <input
                     className="form-control"
                     type="text"
@@ -94,7 +94,7 @@ function Checkout({ history }) {
                 </div>
 
                 <div className="col-md-6 mb-3">
-                  <label for="lastName">Last name</label>
+                  <label htmlFor="lastName">Last name</label>
                   <input
                     className="form-control"
                     type="text"
@@ -115,7 +115,7 @@ function Checkout({ history }) {
               </div>
 
               <div className="mb-3">
-                <label for="email">
+                <label htmlFor="email">
                   Email <span className="text-muted">(Optional)</span>
                 </label>
                 <input

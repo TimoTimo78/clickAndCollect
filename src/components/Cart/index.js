@@ -13,12 +13,16 @@ function Cart() {
       subheading="items in your cart"
     >
       <tbody>
-        {!items.length && <div>No Items in the cart yet </div>}
+        {!items.length && <tr><td>No Items in the cart yet </td></tr>}
         {items.map((item) => (
           <Row key={item.id} {...item} />
         ))}
       </tbody>
-      <CartFooter />
+      <tbody>
+        <tr>
+          <CartFooter />
+        </tr>
+      </tbody>
     </Table>
   );
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
 body {
   margin-top: 71px;
   height: calc(100vh - 500px);
@@ -8,29 +9,37 @@ body {
 .font {
   font-family: "Bangers", cursive;
 }
+
 tbody {
   display: block;
   height: 400px;
   overflow: auto;
   scroll-behavior: smooth;
 }
+
 thead,
 tbody tr {
   display: table;
   width: 100%;
 }
+
 tbody tr {
   padding: 20px 0;
 }
+
+/* tbody td .btn {
+  background-color: #f39c12;
+} */
+
 thead {
-  width: calc(
-    100% - 1em
-  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+  width: calc(100% - 1em);
+  /* scrollbar is average 1em/16px width, remove it from thead width */
 }
 
 .bg-orange {
   background-color: #f39c12 !important;
 }
+
 .btn-orange {
   color: #fff;
   background-color: #f39c12;
@@ -41,6 +50,7 @@ thead {
   color: #f39c12;
   border-color: #f39c12;
 }
+
 .btn-orange:hover,
 .btn-outline-orange:hover {
   color: #fff;

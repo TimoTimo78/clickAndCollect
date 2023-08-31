@@ -41,9 +41,9 @@ const GoogleBtn = () => {
     <>
       {current ? (
         <>
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               type="button"
               id="dropdownMenuButton2"
               data-bs-toggle="dropdown"
@@ -59,7 +59,7 @@ const GoogleBtn = () => {
             </button>
             <ul
               style={styles.dropdown}
-              class="dropdown-menu dropdown-menu-dark"
+              className="dropdown-menu dropdown-menu-dark"
               aria-labelledby="dropdownMenuButton2"
             >
               <li>

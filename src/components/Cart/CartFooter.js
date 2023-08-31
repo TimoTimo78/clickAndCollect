@@ -7,7 +7,7 @@ const styles = {
   disabled: {
     cursor: "not-allowed",
     opacity: 0.5,
-  },
+  }
 };
 
 function CartFooter() {
@@ -15,11 +15,11 @@ function CartFooter() {
   const items = useSelector((state) => state.cart.items);
   return (
     <>
-      <div className="text-right mb-4">
+      <td className="text-right mb-4">
         <h4>Subtotal:</h4>
         <h1>€{total.toFixed(2)}</h1>
-      </div>
-      <div className="d-flex justify-content-between">
+      </td>
+      <td className="d-flex h-100 justify-content-between">
         <Link to="/">
           <i className="fas fa-arrow-left mr-2"></i> Continue Shopping
         </Link>
@@ -30,7 +30,7 @@ function CartFooter() {
         >
           Checkout
         </Link>
-      </div>
+      </td>
     </>
   );
 }
