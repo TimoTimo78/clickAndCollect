@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "application Click and collect",
   "scripts": {
     "start": "nodemon index.js"
   },
