@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "application Click and collect",
   "keywords": ["application Click and collect" ],
+  "author": "Cédric TORRIN",
   "scripts": {
     "start": "nodemon index.js"
   },
