@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "description": "application Click and collect",
+  "keywords": ["application Click and collect" ],
   "scripts": {
     "start": "nodemon index.js"
   },
