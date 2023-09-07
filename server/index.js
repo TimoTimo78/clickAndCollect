@@ -1,6 +1,9 @@
-const PORT = 2021
+// express listen function to connect the receiver
+const PORT = 8080
+// import module export
 const express = require('express');
 const cors = require('cors')
+// import module function
 const app = express()
 const mongoDBClient = require('./mongoClient')
 const { graphqlHTTP } = require('express-graphql')

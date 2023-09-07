@@ -7,7 +7,7 @@ import FiltersProvider from "./context";
 import App from "./App";
 
 const client = new ApolloClient({
-  uri: "http://localhost:2021/graphql",
+  uri: "http://localhost:8080/graphql",
   cache: new InMemoryCache(),
 });
 
