@@ -19,7 +19,7 @@ const styles = {
 };
 const client = {
   sandbox:
-    "AVtWJ2ZGAcKkIyqxzymqc0nBhQzrDkCdOTkY_Ouh05bmQ7u-hJf30ePM4H7JfHLz92lBg2pq3465ztiI", /* remplacer avec votre CLIENT ID : à récupérer sur https://developer.paypal.com/developer/applications*/
+    "EJCokYGsoDOE9IcKFF16nYGr39d4suhoD29T9Zpf65KkRK0dDq601Pls-uOXDyP-FklxnrFID8osVXjb", /* remplacer avec votre CLIENT ID : à récupérer sur https://developer.paypal.com/developer/applications*/
   production: "<ClientID>",
   env: "sandbox" /* change to 'production' for production purposes */,
 };
