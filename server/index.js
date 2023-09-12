@@ -11,7 +11,7 @@ const schema = require('./schemas/index.js')
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hello ExpressWorld! 🎉')
+    res.send('Hello ExpressWorld, the front is on port 3000! 🎉')
 })
 
 // API Rest 
