@@ -27,9 +27,9 @@ tbody tr {
   padding: 20px 0;
 }
 
-/* tbody td .btn {
+tbody td .btn {
   background-color: #f39c12;
-} */
+}
 
 thead {
   width: calc(100% - 1em);
